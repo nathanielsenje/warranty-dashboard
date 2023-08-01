@@ -1,6 +1,9 @@
 {
   "name": "shards-dashboard-lite-react",
   "version": "1.0.0",
+  "engine":{
+    "node":"16.20.1"
+  },
   "private": true,
   "homepage": "./",
   "dependencies": {
