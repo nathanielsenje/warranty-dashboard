@@ -12,6 +12,9 @@ import Errors from "./views/Errors";
 import ComponentsOverview from "./views/ComponentsOverview";
 import Tables from "./views/Tables";
 import BlogPosts from "./views/BlogPosts";
+import Customers from "./views/Customers";
+import Warranties from "./views/Warranties";
+import Claims from "./views/Claims";
 
 export default [
   {
@@ -44,6 +47,21 @@ export default [
     path: "/components-overview",
     layout: DefaultLayout,
     component: ComponentsOverview
+  },
+  {
+    path: "/customers",
+    layout: DefaultLayout,
+    component: Customers
+  },
+  {
+    path: "/warranties",
+    layout: DefaultLayout,
+    component: Warranties
+  },
+  {
+    path: "/claims",
+    layout: DefaultLayout,
+    component: Claims
   },
   {
     path: "/tables",

@@ -32,7 +32,7 @@ const UserAccountDetails = ({ title }) => (
                   <FormInput
                     id="feFirstName"
                     placeholder="First Name"
-                    value="Sierra"
+                    value="Nathaniel"
                     onChange={() => {}}
                   />
                 </Col>
@@ -42,7 +42,7 @@ const UserAccountDetails = ({ title }) => (
                   <FormInput
                     id="feLastName"
                     placeholder="Last Name"
-                    value="Brooks"
+                    value="Senje"
                     onChange={() => {}}
                   />
                 </Col>
@@ -55,7 +55,7 @@ const UserAccountDetails = ({ title }) => (
                     type="email"
                     id="feEmail"
                     placeholder="Email Address"
-                    value="sierra@example.com"
+                    value="nathaniel.senje@safalgroup.com"
                     onChange={() => {}}
                     autoComplete="email"
                   />
@@ -78,7 +78,7 @@ const UserAccountDetails = ({ title }) => (
                 <FormInput
                   id="feAddress"
                   placeholder="Address"
-                  value="1234 Main St."
+                  value="Plot 18, Nyerere Road"
                   onChange={() => {}}
                 />
               </FormGroup>
@@ -88,7 +88,7 @@ const UserAccountDetails = ({ title }) => (
                   <label htmlFor="feCity">City</label>
                   <FormInput
                     id="feCity"
-                    placeholder="City"
+                    placeholder="Dar es Salaam"
                     onChange={() => {}}
                   />
                 </Col>
